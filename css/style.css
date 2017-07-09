@@ -3,26 +3,27 @@
     background-color: transparent;
     padding-top: 30px;
     border-bottom: none;
+    font-family: 'Prompt', sans-serif;
     
 }
 .navbar-default .navbar-brand,.navbar-default .navbar-brand:hover{
     font-size: 25px;
-    color: green;
+    color: white;
 }
 .navbar-default .navbar-nav > li > a{
     font-size: 20px;
-    color: green;
+    color: white;
     padding-bottom: 5px ;/******** hover focus **********/
 }
 .navbar-default .navbar-nav > li > a:hover{
     opacity: 0.7;
-    color: green;
-    border-bottom: 2px solid green;
+    color: white;
+    border-bottom: 2px solid white;
 }
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 4px;
-    background-color: green;
+    background-color: white;
     margin: 5px 0;
     transition: 0.4s;
 }
@@ -39,8 +40,71 @@
 }
  .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     border: none;
-    background-color: greenyellow;
+    background-color: transparent;
 }
 .navbar-default .navbar-collapse{
-    border-top-color:green;;
+    border-top-color:white;
+    background-color: rgb(0,0,0,.8);
+}
+
+/*################## in palallax #############################################*/
+.text1{
+    padding-top: 200px;
+    text-align: center;
+}
+.text1 > h1 > a{
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    font-family: 'Prompt', sans-serif;
+}
+.text1 > h1 > a:hover{
+    background-color: rgba(0,0,0,.5);
+    border: none;
+}
+
+/*################## product #############################################*/
+.col-md-4{
+    text-align: center;
+}
+.img{
+  margin: auto;
+  width: 250px;
+  height: 200px
+}
+.text2{
+    text-align: center;
+    padding: 20px;
+}
+.text3{
+    text-align: center;
+    padding: 10px 40px 40px 10px;
+}
+
+/*################## About us #############################################*/
+.text4{
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px
+}
+#more{
+    display: none;
+}
+.text5{
+    color: black;
+    margin: auto;
+    text-align: center;
+    margin: 30px 100px 30px 100px;
+}
+/*################## Footer #############################################*/
+.foot{
+    background-color: rgb(25, 25, 25);
+    text-align: center;
+    color: white;
 }

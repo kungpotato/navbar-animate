@@ -7,10 +7,29 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <link rel="stylesheet" href="css/style.css"></script>
+        <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
         <style>
-            body{
-                background-color: gray;
+            /*################## parallax #############################################*/
+            .parallax1 { 
+                /* The image used */
+                background-image: url("img/bg1.jpg");
+                /* Set a specific height */
+                height: 650px; 
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .parallax2 { 
+                /* The image used */
+                background-image: url("img/bg2.jpg");
+                /* Set a specific height */
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
         </style>
     </head>
@@ -20,82 +39,125 @@
             <div class="container">
                 <div class="row">
                     <!--***********navber header*****************-->
-                    <div class="col-md-4">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                <div class="bar1"></div>
-                                <div class="bar2"></div>
-                                <div class="bar3"></div>                        
-                            </button>
-                            <b><a href="#" class="navbar-brand"><i style="color:greenyellow">E</i>san<i style="color:greenyellow">F</i>ruit</a></b>
-                        </div>
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>                        
+                        </button>
+                        <b><a href="#" class="navbar-brand"><i style="color:greenyellow;font-size:40px">E</i>san<i style="color:greenyellow;font-size:40px">F</i>ruit</a></b>
                     </div>
                     <!--***********navber list*****************-->
-                    <div class="col-md-8">
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav pull-right">
-                                <li><a href="#">หน้าหลัก</a></li>
-                                <li><a href="#">เกี่ยวกับเรา</a></li>
-                                <li><a href="#">ถาม-ตอบ</a></li>
-                                <li><a href="#">ติดต่อ</a></li>
-                            </ul>
-                        </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav pull-right">
+                            <li><a href="#">หน้าหลัก</a></li>
+                            <li><a href="#">สินค้าของเรา</a></li>
+                            <li><a href="#">เกี่ยวกับเรา</a></li>
+                            <li><a href="#">ติดต่อ</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </nav>
-        <!--################## div1 ##########################################-->
+        <!--################## background parallax ##########################################-->
+         <div class="parallax1">
+            <div class="container">
+                <div class="text1">
+                    <h1><a href="#">รวมผลไม้อร่อย</a></h1>
+                </div>
+            </div>
+        </div>
+        <!--################## product ##########################################-->
+        <div>
+            <h1 class="text2">สินค้าของเรา</h1>
+        </div>
         <div class="container">
-            <p></br></br></br></br></br>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/></p>
+            <div class="row">
+                <!--*********** colume 1 *****************-->
+                <div class="col-md-4 ">
+                    <img class="img" src="img/tm1.jpg">
+                    <p class="text3">
+                        แตงโม จัดเป็นพืชในตระกูลเดียวกันกับ 
+                        แคนตาลูป ฟักทอง แตงกวา ซึ่งนักพฤกษศาสตร์ 
+                        จัดให้อยู่ในวงศ์แตง (Family CUCURBITACEAE) 
+                        เป็นผลไม้ที่มีน้ำประกอบอยู่ในปริมาณมากจึงมี
+                        คุณสมบัติเย็น รับประทานแล้วหวานชื่นใจ
+                    </p>
+                </div>
+                <!--*********** colume 2 *****************-->
+                <div class="col-md-4">
+                    <img class="img" src="img/tm2.jpg">
+                    <p class="text3">
+                        ส้มมีสรรพคุณเป็นยาบำรุงร่างกายชั้นเยี่ยม 
+                        เพราะแค่เพียงเรากินส้มสด 100 กรัม จะได้
+                        รับเบต้าแคโรทีนถึง 82 ไมโครกรัม และ
+                        วิตามินซี 42 มิลลิกรัม เพียงพอต่อความ
+                        ต้องการของร่างกายต่อวัน
+                    </p>
+                </div class="text3">
+                <!--*********** colume 3 *****************-->
+                <div class="col-md-4">
+                    <img class="img" src="img/tm3.jpg">
+                    <p>
+                        มะขามทำให้ผิวพรรณทั้งผิวหน้าและผิวกายเปล่งปลั่ง
+                        สดใส เพราะวิตามินซีที่เป็นสารต้านอนุมูลอิสระชั้นดี
+                        ซึ่งจะช่วยปกป้องผิวจากมลพิษต่างๆ บำรุงผิวพรรณ
+                        ให้เนียนนุ่ม ลดการเกิดริ้วรอยแห่งวัยและช่วยชะลอ
+                        ความแก่
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--################## About us ##########################################-->
+         <div class="parallax2">
+            <div class="container">
+                <div class="text4">
+                    <h1>เกี่ยวกับเรา</h1>
+                    <p>
+                       สวนสุภัทราแลนด์ ตั้งอยู่เลขที่ 70 หมู่ 10 ตำบลหนองละลอก อำเภอบ้านค่าย จังหวัดระยอง 
+                       อยู่ห่างจากตัวเมือง ประมาณ 30 กิโลเมตร ตามทางหลวงหมายเลข  3143 เป็นสวนผลไม้ที่เปิดให้ประชาชนเข้าชม 
+                       มีผลไม้ประเภท มังคุด ทุเรียน เงาะ  ลองกอง  ส้มโอ ช่วงผลไม้ออกราวปลายเดือนเมษายนถึงเดือนมิถุนายน การเข้าชม 
+                       สวนผลไม้ นักท่องเที่ยวสามารถมาซื้อตั๋วที่บริเวณข้างหน้า ประชาสัมพันธ์หลังจากนั้นเราจะมีมะพร้าวอ่อนหรือ น้ำมะพร้าวปั่นสดๆ
+                       เย็นชื่นใจเพื่อรองรับนักท่องเที่ยวก่อนที่จะขึ้นรถไฟเพื่อเข้าไปสู่ อาณาบริเวณของ สวนซึ่งมีถึง 800 ไร่ โดยรถแต่ละคันทางสวนเรา
+                       ก็จะจัดให้มีไกด์บรรยายประจำรถที่ คอยให้ความรู้และให้ความสนุก ท่ามกลางบรรยากาศที่ในทุกวันแทบจะหาไม่ได้เลยก็ว่าได้ 
+                       โดยจะนำท่านเข้าสู่สวนผลไม้ที่ แบ่งเป็น สัดส่วนตามชนิดของผลไม้ กว่า 20 ชนิด ซึ่งจะหมุนเวียนกันออกตามฤดูกาล 
+                    </p>
+                      <p id="more">
+                        หลังจากผ่านพ้นสงกรานต์ในทุกปี ก็ได้เวลาดีๆ 
+                        ของสวนผลไม้จากภาคตะวันออกของบ้านเราออกโรงกันแล้วจ้า
+                        ไม่ว่าจะเป็น เงาะ ทุเรียน มังคุด ได้ยินชื่อแล้วก็ขอบอกเลย
+                         น้ำลายไหล อยากจะขอไปกินสักหน่อยให้หายอยาก เลยทีเดียว
+                        แต่จะดีแค่ไหน หากเราได้ไปเยือนถึงถิ่น แล้วเด็ดกินจากในสวนกันเลย!!
+                        และนี่คือ สวนผลไม้ที่เราอยากให้คุณได้ไปสัมผัส!! พร้อมข้อมูลแน่นๆ 
+                        ให้ตามไปชิมกันเลยจ้า!
+                    </p>
+                    <h4><a href="javascript:void(0)" class="read_more" style="color:white;">อ่านเพิ่มเติม</a></h4>
+                </div>
+            </div>
+        </div>
+        <!--################## contract ##########################################-->
+        <div class="container">
+            <h1 class="text2">ติดต่อเรา</h1><hr style="border:1px solid black"/>
+            <div class="text5">
+                สวนสุภัทราแลนด์
+                70 หมู่ 10 ตำบลหนองละลอก อำเภอบ้านค่าย จังหวัดระยอง
+                รายละเอียดเพิ่มเติม โทร.0-3889-2048-9, 08-9936-5933, 08-3111-0984
+                เปิดให้บริการทุกวัน 8.00-16.30 น. (สวนปิด 18.00 น.)
+            </div>
+            <div style="text-align:center">
+                <img class="img-reponsive" src="img/s1.jpg">
+            </div>
         </div><br/>
-        <div class="container">
-            <p>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/>
-            zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br/></p>
+        <!--################## Footer ##########################################-->
+        <div class="foot">
+            <div class="container">
+                <h3>EsanFruit</h3>
+                <p>Thanks a lot for visiting.</p>
+                <p>Copyrights © kungpotato 2017</p>
+            </div><br/><br/>
         </div>
     <script src="script/script.js"></script> 
     <script src="script/jquery-ui.min.js"></script> 
+    <link rel="stylesheet" href="css/style.css"></script>
     </body>
 </html>

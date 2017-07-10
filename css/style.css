@@ -120,7 +120,6 @@
     right: 10%;
     left:auto;
     text-align: left;
-    
 }
 .text6{
     font-size: 25px
@@ -133,7 +132,7 @@
 .img{
   margin: auto;
   width: 250px;
-  height: 200px
+  height: 200px;
 }
 .text2{
     text-align: center;
@@ -172,6 +171,10 @@
 }
 
 /*################## screen #############################################*/
+.slide{
+    animation-name: slide;
+    animation-duration: 1.5s;
+}
 @media screen and (max-width: 700px) {
     .overlay .closebtn {
         left: 46%;
@@ -191,3 +194,14 @@
         padding-left: 0;
     }
 }
+
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
